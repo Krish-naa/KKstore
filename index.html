@@ -23,13 +23,13 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="Contact.html">Contact</a></li>
-          <li>
+          <li id = "lg-bag">
             <a href="cart.html"
               ><i class="fa-solid fa-cart-shopping-fast"></i
             ></a>
           </li>
           <!--by clickig on the link we can go to page name cart-->
-          <a href="#" id="close"> <i class="far fa-times"></i></a>
+          <a href="#" id="close"> <i class="far fa-times"></i></a> <!--added close button by clicking here hamburger will close-->
         </ul>
       </div>
       <div id="mobile">
@@ -77,7 +77,7 @@
       <h2>Featured Products</h2>
       <p>Summer Collection New Morden Design</p>
       <div class="pro-container">
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f1.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -92,7 +92,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f2.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -107,7 +107,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f3.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -122,7 +122,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f4.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -137,7 +137,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f5.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -152,7 +152,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f6.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -167,7 +167,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f7.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -182,7 +182,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/f8.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -211,7 +211,7 @@
       <h2>New Arrival</h2>
       <p>Summer Collection New Morden Design</p>
       <div class="pro-container">
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n1.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -226,7 +226,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n2.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -241,7 +241,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n3.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -256,7 +256,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n4.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -271,7 +271,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n5.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -286,7 +286,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n6.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -301,7 +301,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n7.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -316,7 +316,7 @@
           </div>
           <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro">
+        <div class="pro" onclick="openNewPage()">
           <img src="images/product/n8.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
@@ -374,6 +374,11 @@
         </p>
         </div>
         <div class="form">
+          <input type="text" placeholder="Enter your Name">
+          <hr />
+          <br />
+          <br />
+          <br />
           <input type="text" placeholder="Your email address">
           <hr />
           <br />
@@ -382,8 +387,38 @@
           <input type="text" placeholder="Your Phone number">
           <button Class="normal">Sign Up</button>
         </div>
+        <!-- <form>
+          <div class="form">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="form">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form> -->
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="section-p1">
       <div class="col">
